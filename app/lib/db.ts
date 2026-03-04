@@ -35,7 +35,7 @@ export async function upsertSettings(
       { family_code: familyCode.toUpperCase(), ...patch, updated_at: new Date().toISOString() },
       { onConflict: "family_code" }
     );
-  if (error) console.error("upsertSettings:", error);
+  if (error) console.error("upsertSettings:", error.message, error.code, error.details);
 }
 
 // ── Transactions ───────────────────────────────────────────────────────────
