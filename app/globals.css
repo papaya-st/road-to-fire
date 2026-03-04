@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: 'Noto Sans JP', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Apple-style mesh gradient wallpaper — fixed so it doesn't scroll */
+  background:
+    radial-gradient(ellipse at 18% 18%, rgba(99,102,241,0.22) 0%, transparent 52%),
+    radial-gradient(ellipse at 82% 8%,  rgba(139,92,246,0.17) 0%, transparent 48%),
+    radial-gradient(ellipse at 62% 88%, rgba(79,70,229,0.13)  0%, transparent 54%),
+    radial-gradient(ellipse at 4%  78%, rgba(168,85,247,0.11) 0%, transparent 44%),
+    radial-gradient(ellipse at 92% 60%, rgba(124,58,237,0.09) 0%, transparent 40%),
+    #edecf4;
+  background-attachment: fixed;
+  color: #0f0e1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tropical photo background overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('/tropical-photo.jpg');
+  background-size: cover;
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure all content sits above the tropical overlay */
+#__next, [data-nextjs-scroll-focus-boundary] { position: relative; z-index: 1; }
+
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Financial numbers — tabular for alignment */
+.font-num {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+  letter-spacing: -0.02em;
+}
+
+/* ── Glass morphism card ── */
+.glass {
+  background: rgba(255, 255, 255, 0.70);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  box-shadow: 0 4px 24px rgba(79,70,229,0.08), 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* ── Glass sticky header / nav bar ── */
+.glass-header {
+  background: rgba(237, 236, 244, 0.90);
+  backdrop-filter: blur(28px) saturate(200%);
+  -webkit-backdrop-filter: blur(28px) saturate(200%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+/* Legacy alias */
+.card-shadow {
+  box-shadow: 0 4px 24px rgba(79,70,229,0.08), 0 1px 3px rgba(0,0,0,0.04);
+}

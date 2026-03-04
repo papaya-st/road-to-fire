@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <!-- Large sun glow -->
+  <circle cx="1100" cy="160" r="200" fill="#7C3AED" opacity="0.10"/>
+  <circle cx="1100" cy="160" r="130" fill="#4F46E5" opacity="0.08"/>
+  <circle cx="1100" cy="160" r="70"  fill="#6D28D9" opacity="0.07"/>
+
+  <!-- Right tall palm tree -->
+  <path d="M1220 900 C1212 800 1205 700 1198 600 C1190 500 1182 400 1172 310"
+        stroke="#4338CA" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.22"/>
+  <!-- leaves right -->
+  <path d="M1172 310 C1110 270 1030 255 965 285 C1005 318 1070 325 1115 348 Z" fill="#6D28D9" opacity="0.20"/>
+  <path d="M1172 310 C1152 248 1150 168 1190 128 C1192 172 1178 222 1198 265 Z" fill="#5B21B6" opacity="0.18"/>
+  <path d="M1172 310 C1215 262 1278 250 1330 268 C1288 300 1225 302 1198 322 Z" fill="#6D28D9" opacity="0.20"/>
+  <path d="M1172 310 C1178 248 1220 195 1268 185 C1248 228 1208 250 1218 300 Z" fill="#4F46E5" opacity="0.15"/>
+  <path d="M1172 310 C1108 295 1048 318 1018 360 C1060 348 1122 338 1162 360 Z" fill="#5B21B6" opacity="0.15"/>
+  <!-- coconuts -->
+  <circle cx="1178" cy="332" r="9"  fill="#4338CA" opacity="0.22"/>
+  <circle cx="1162" cy="342" r="8"  fill="#3730A3" opacity="0.20"/>
+
+  <!-- Left shorter palm tree -->
+  <path d="M125 900 C130 800 136 700 140 600 C144 500 142 400 138 330"
+        stroke="#4338CA" stroke-width="13" fill="none" stroke-linecap="round" opacity="0.18"/>
+  <!-- leaves left -->
+  <path d="M138 330 C92 300 42 296 12 316 C52 332 104 332 128 346 Z" fill="#6D28D9" opacity="0.15"/>
+  <path d="M138 330 C122 274 116 208 142 168 C148 212 136 262 152 296 Z" fill="#5B21B6" opacity="0.14"/>
+  <path d="M138 330 C175 296 210 280 236 292 C204 310 168 310 152 326 Z" fill="#6D28D9" opacity="0.15"/>
+  <path d="M138 330 C154 268 185 218 220 204 C204 242 168 262 168 306 Z" fill="#4F46E5" opacity="0.12"/>
+  <circle cx="142" cy="346" r="7" fill="#4338CA" opacity="0.18"/>
+
+  <!-- Small right palm (background) -->
+  <path d="M1380 900 C1375 820 1370 740 1368 680 C1364 620 1360 560 1358 520"
+        stroke="#4338CA" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.14"/>
+  <path d="M1358 520 C1320 498 1282 492 1252 506 C1280 522 1320 524 1342 536 Z" fill="#6D28D9" opacity="0.13"/>
+  <path d="M1358 520 C1360 476 1372 432 1396 418 C1392 446 1376 472 1385 500 Z" fill="#5B21B6" opacity="0.12"/>
+  <path d="M1358 520 C1380 490 1412 480 1436 488 C1414 502 1382 502 1372 514 Z" fill="#6D28D9" opacity="0.13"/>
+
+  <!-- Ocean waves -->
+  <path d="M0 760 Q180 738 360 760 Q540 782 720 760 Q900 738 1080 760 Q1260 782 1440 760 L1440 900 L0 900 Z"
+        fill="#4F46E5" opacity="0.08"/>
+  <path d="M0 800 Q180 778 360 800 Q540 822 720 800 Q900 778 1080 800 Q1260 822 1440 800 L1440 900 L0 900 Z"
+        fill="#7C3AED" opacity="0.06"/>
+  <path d="M0 835 Q360 818 720 835 Q1080 852 1440 835 L1440 900 L0 900 Z"
+        fill="#4338CA" opacity="0.05"/>
+
+  <!-- Stars / sparkles -->
+  <circle cx="320" cy="85"  r="2.5" fill="#8B5CF6" opacity="0.35"/>
+  <circle cx="680" cy="50"  r="2"   fill="#4F46E5" opacity="0.30"/>
+  <circle cx="480" cy="130" r="1.5" fill="#9333EA" opacity="0.25"/>
+  <circle cx="840" cy="80"  r="2"   fill="#6D28D9" opacity="0.28"/>
+  <circle cx="200" cy="155" r="1.5" fill="#4F46E5" opacity="0.22"/>
+  <circle cx="560" cy="70"  r="1"   fill="#7C3AED" opacity="0.20"/>
+  <circle cx="940" cy="45"  r="1.5" fill="#6D28D9" opacity="0.22"/>
+
+  <!-- Horizon shimmer line -->
+  <line x1="0" y1="755" x2="1440" y2="755" stroke="#7C3AED" stroke-width="1" opacity="0.08"/>
+</svg>
