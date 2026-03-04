@@ -1,12 +1,12 @@
 {
-  "name": "Money Management",
-  "short_name": "家計簿",
-  "description": "家族の家計簿アプリ",
+  "name": "Road to FIRE",
+  "short_name": "Road to FIRE",
+  "description": "家族の家計管理・早期リタイアへの道",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8fafc",
-  "theme_color": "#3b82f6",
+  "background_color": "#0d0821",
+  "theme_color": "#4c1d95",
   "icons": [
-    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]
 }

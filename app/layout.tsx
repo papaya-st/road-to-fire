@@ -8,8 +8,7 @@ export const metadata: Metadata = {
   title: "かけいぼ",
   description: "家族の家計管理アプリ",
   manifest: "/manifest.json",
-  appleWebApp: { capable: true, statusBarStyle: "default", title: "かけいぼ" },
-  icons: { icon: "/icon.svg", apple: "/icon.svg" },
+  appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Road to FIRE" },
 };
 
 export const viewport: Viewport = {
